@@ -1,21 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Plantilla Web</title>
-    <link rel="shortcut icon" href="build/img/favicon.svg" type="image/x-icon">
+    <title>Herreria Guerreros</title>
+    <link rel="shortcut icon" href="/build/img/guerrero.webp" type="image/x-icon">
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
 <header>
     <nav class="contenedor navegacion">
         <ul class="navegacion-links">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Conóceme</a></li>
-            <li><a href="#">Herrería</a></li>
-            <li><a href="#">Vidrio</a></li>
-            <li><a href="#">Aluminio</a></li>
-            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#conoceme">Conóceme</a></li>
+            <li><a href="#herreria">Herrería</a></li>
+            <li><a href="#vidrio">Vidrio</a></li>
+            <li><a href="#aluminio">Aluminio</a></li>
+            <li><a href="#contacto">Contáctanos</a></li>
         </ul>
 
 
@@ -25,39 +25,120 @@
     </nav>
 </header>
 
-<section class="contenedor-slider">
+<section class="contenedor-slider" id="inicio">
     <div class="banner">
         <div class="capa"></div>
         <div class="info">
-            <h1>Título</h1>
-            <p>Texto</p>
-            <a href="#">Leer Más</a>
+            <h1>HERRERÍA GUERREROS</h1>
+            <p>Apartir de este momento se conocerá
+                acerca de la persona encargada de la
+                herrería guerreros, todos lo retos y
+                lo bien que se han sabido manejar.
+            </p>
         </div>
     </div>
 
 </section>
 
-<section>
+<section class="contenedor" id="conoceme">
     <h2>Conóceme</h2>
+    <p>En este apartado vamos a conocer a la persona que es el genio detras de todo este trabajo de herrería,
+        además de sus años de experencias y las multiples cosas que ha realizado a lo largo de su oficio y vida.
+
+        Soy José Armando Ramírez Carmona, tengo 47 años de edad y tengo 35 años de experencia como herrero y ademas de
+        la herrería
+        ejerci otro tipo de trabajo como serigrafísta especializado en blindadoras de parabrisas para los automoviles
+        y con esos años de experencia y logros que poco a poco se consiguieron logre tener mi herrería propia y despues
+        y con mis 35 años de respaldo el trabajo a llegado a muchos hogares, voces y familias que estan satisfechos con
+        mi
+        trabajo Dios me ha bendecido muy bien, ahora los invito a que vean los diferentes tipos de trabajos que se han
+        realizado con el paso del tiempo.</p>
 </section>
 
-<section>
+<section class="contenedor" id="herreria">
     <h2>Herrería</h2>
+    <p>En este apartado se mostrarán imagenes en las cuales se han hecho diversos
+        trabajos de la herrería. !Espero sean de su agrado¡
+    </p>
+
+    <div class="container">
+
+        <ul class="slider">
+            <li id="slide1">
+                <img src="build\img\img1.jpg"/>
+            </li>
+            <li id="slide2">
+                <img src="build\img\img2.jpg"/>
+            </li>
+            <li id="slide3">
+                <img src="build\img\img3.jpg">
+            </li>
+            <li id="slide4">
+                <img src="build\img\img4.jpg">
+            </li>
+
+        </ul>
+
+        <ul class="menu">
+            <li>
+                <a href="#slide1">1</a>
+            </li>
+            <li>
+                <a href="#slide2">2</a>
+            </li>
+            <li>
+                <a href="#slide3">3</a>
+            </li>
+            <li>
+                <a href="#slide4">4</a>
+            </li>
+        </ul>
+
+    </div>
 </section>
 
-<section>
+<section class="contenedor" id="vidrio">
     <h2>Vidrio</h2>
+    <p>Ahora continuamos con los trabajos que se han llevado la gran
+        parte del trabajo con vidrio, aunque han sido muy pocas cabe
+        resaltar que se ven bien y con estilo.
+    </p>
 </section>
 
-<section>
+<section class="contenedor" id="aluminio">
     <h2>Aluminio</h2>
+    <p>En la parte final vamos a mostrar el trabajo que se hace con el
+        aluminio tambien ya que pues en esta vida se debe hacer de todo
+        segun los adultos y aqui se muestran los trabajos.
+    </p>
 </section>
 
-<section>
-    <h2>Contacto</h2>
+<section class="mapa"   id="contacto">
+    <h2>Contactános</h2>
+    <div class="text-center">
+        <ul class="contact-form">
+            <li><i class="fa fa-map-marker"></i>
+                <h6><strong>Calle:</strong> C. Emiliano Zapata Mn.2 Lt.16 Col. Los Olivos </h6>
+            </li>
+            <li><i class="fa fa-phone"></i>
+                <a href="https://api.whatsapp.com/send?phone=+52 5512017181">5512017181</a>
+                /<--Para mas informacion manda un mensaje al siguiente numero/<a
+                        href="https://api.whatsapp.com/send?phone=+52 5512017181=Hola,mucho gusto en que le podemos servir!"></a>
+            </li>
+            </li>
+        </ul>
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d939.1708535957339!2d-98.9715780018318!3d19.683507464025812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ed01573ac4f9%3A0x4ff2ccc2089ef5db!2sCalle%20Emiliano%20Zapata%2C%20Los%20Olivos%2C%20San%20Mart%C3%ADn%20Azcatepec%2C%20M%C3%A9x.!5e0!3m2!1ses!2smx!4v1644713712931!5m2!1ses!2smx"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
 </section>
-
-
+<footer id="footer">
+    <div class="bg-sec">
+        <div class="container">
+            <h2>ESPERO QUE LA PAGINA <strong>HAYA SIDO </strong>DE SU AGRADO</h2>
+        </div>
+    </div>
+</footer>
 
 
 <script src="build/js/bundle.min.js"></script>
